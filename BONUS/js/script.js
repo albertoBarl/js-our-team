@@ -45,6 +45,7 @@ for (let i = 0; i < ourteam.length; i++) {
 const container = document.querySelector(".containerphotos");
 let colonna = document.createElement("div");
 
+// BONUS
 for (let i = 0; i < ourteam.length; i++) {
   let the_team = document.createElement("div");
   let descr = document.createElement("div");
