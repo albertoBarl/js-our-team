@@ -41,3 +41,14 @@ let ourteam = [
 for (let i = 0; i < ourteam.length; i++) {
   console.log(ourteam[i]);
 }
+// MILESTONE 2
+const container = document.querySelector(".bg-dark");
+
+for (let i = 0; i < ourteam.length; i++) {
+  let the_team = document.createElement("div");
+  the_team.innerText = `Nome: ${ourteam[i].name}; 
+  Ruolo: ${ourteam[i].role}; 
+  Immagine: ${ourteam[i].image}`;
+  the_team.classList.add("form-control", "bg-primary", "mb-3", "border-2");
+  container.append(the_team);
+}
