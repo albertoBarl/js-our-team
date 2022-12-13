@@ -3,35 +3,35 @@
 // MILESTONE 1: Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 // MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe
 
-let barlfc = [
+let ourteam = [
   {
-    nome: "Wayne",
-    ruolo: "Founder & CEO",
-    foto: "",
+    name: "Wayne Barnett",
+    role: "Founder & CEO",
+    image: "wayne-barnett-founder-ceo.jpg",
   },
   {
-    nome: "Michael",
-    ruolo: "Chief Editor",
-    foto: "",
+    name: "Angela Caroll",
+    role: "Chief Editor",
+    image: "angela-caroll-chief-editor.jpg",
   },
   {
-    nome: "Jesus",
-    ruolo: "Office Manager",
-    foto: "",
+    name: "Walter Gordon",
+    role: "Office Manager",
+    image: "walter-gordon-office-manager.jpg",
   },
   {
-    nome: "Jesus",
-    ruolo: "Social Media Manager",
-    foto: "",
+    name: "Angela Lopez",
+    role: "Social Media Manager",
+    image: "angela-lopez-social-media-manager.jpg",
   },
   {
-    nome: "Michael",
-    ruolo: "Developer",
-    foto: "",
+    name: "Scott Estrada",
+    role: "Developer",
+    image: "scott-estrada-developer.jpg",
   },
   {
-    nome: "Jesus",
-    ruolo: "Graphic Designer",
-    foto: "",
+    name: "Barbara Ramos",
+    role: "Graphic Designer",
+    image: "barbara-ramos-graphic-designer.jpg",
   },
 ];
