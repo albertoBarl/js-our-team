@@ -39,7 +39,9 @@ let ourteam = [
 
 // MILESTONE 1
 for (let i = 0; i < ourteam.length; i++) {
-  console.log(ourteam[i]);
+  for (let key in ourteam[i]) {
+    console.log(ourteam[i][key]);
+  }
 }
 // MILESTONE 2
 const container = document.querySelector(".bg-dark");
