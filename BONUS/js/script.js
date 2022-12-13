@@ -42,13 +42,21 @@ for (let i = 0; i < ourteam.length; i++) {
   console.log(ourteam[i]);
 }
 // MILESTONE 2
-const container = document.querySelector(".bg-dark");
+const container = document.querySelector(".containerphotos");
+let colonna = document.createElement("div");
 
 for (let i = 0; i < ourteam.length; i++) {
   let the_team = document.createElement("div");
-  the_team.innerText = `Nome: ${ourteam[i].name}; 
-  Ruolo: ${ourteam[i].role}; 
-  Immagine: ${ourteam[i].image}`;
-  the_team.classList.add("form-control", "bg-primary", "mb-3", "border-2");
+  let descr = document.createElement("div");
+  let photo = document.createElement("div");
+
+  photo.innerHTML = `<img src="./img/${ourteam[i].image}">`;
+  descr.innerHTML = `<span><strong>${ourteam[i].name}</strong></span> 
+  <span>${ourteam[i].role}</span>`;
+
+  the_team.classList.add("bg-body", "mb-4");
+  descr.classList.add("d-flex", "flex-column", "text-center");
+
   container.append(the_team);
+  the_team.append(descr, photo);
 }
