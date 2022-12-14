@@ -51,10 +51,12 @@ for (let i = 0; i < ourteam.length; i++) {
   let descr = document.createElement("div");
   let photo = document.createElement("div");
 
+  // full card structure
   photo.innerHTML = `<img src="./img/${ourteam[i].image}">`;
   descr.innerHTML = `<span><strong>${ourteam[i].name}</strong></span> 
   <span>${ourteam[i].role}</span>`;
 
+  // card style
   the_team.classList.add("bg-body", "mb-4");
   descr.classList.add("d-flex", "flex-column", "text-center");
 
